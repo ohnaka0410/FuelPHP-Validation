@@ -1,11 +1,11 @@
-# Fuel Validation Package.
+# Fuel Validation Package.
 
 ## Overview
 This Package provide Validation class with Multi-byte Validations.
 
 ## Installing
 
-Simply add `validation` to your config.php `always_loaded.packages` config option.
+Simply add `validation` to your config.php `always_loaded.packages` config option.
 
 ## Usage
 
