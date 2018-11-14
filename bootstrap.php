@@ -24,5 +24,6 @@
 \Autoloader::add_core_namespace('Fuel\\Validation');
 
 \Autoloader::add_classes(array(
-	'Fuel\\Validation\\Validation' => __DIR__.'/classes/validation.php',
+	'Fuel\\Validation\\Validation'       => __DIR__.'/classes/validation.php',
+	'Fuel\\Validation\\Validation_Error' => __DIR__.'/classes/validation/error.php',
 ));
