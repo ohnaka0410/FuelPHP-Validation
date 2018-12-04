@@ -84,7 +84,7 @@ class Validation_Error extends \Fuel\Core\Validation_Error
 			}
 
 			$find[]     = ':param:'.($key + 1);
-			$replace[]  = $val;
+			$replace[]  = \Lang::get('validation.param.'.$val, array(), $val);
 		}
 
 		// execute find & replace and return
